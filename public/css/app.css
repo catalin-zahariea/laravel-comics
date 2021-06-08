@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+header .top-header {
+  background-color: #3780F1;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: right;
+  text-transform: uppercase;
+  padding: 2.5px 0;
+}
+
+header .top-header span {
+  padding-left: 3em;
+}
+
+header .top-header sup {
+  font-size: 8px;
+}
+
+header nav {
+  padding: 1em 0;
+}
+
+header nav .flex {
+  justify-content: space-between;
+}
+
+header nav .header-logo img {
+  width: 4em;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul .active {
+  color: #3780F1;
+}
+
+header nav ul .active::after {
+  position: absolute;
+  bottom: -3em;
+  left: 0;
+  background-color: #3780F1;
+  content: "";
+  width: 100%;
+  height: 0.3em;
+}
+
+header nav li {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 3em;
+  font-size: 14px;
+  color: #1C1C1C;
+  position: relative;
+}
+
+header .header-search {
+  justify-self: self-end;
+  margin-left: 2em;
+  padding-left: 5em;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 0.15em solid #3780F1;
+  color: #1C1C1C;
+}
+
