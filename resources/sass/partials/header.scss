@@ -63,15 +63,21 @@ header {
             color: $primary-fill;
             position: relative;
         }
+
+        .header-search {
+            justify-self: self-end;
+            margin-left: 2em;
+            padding-left: 5em;
+            font-size: 14px;
+            font-weight: 700;
+            border-bottom: 0.15em solid $primary-accent;
+            color: $primary-fill;
+        }
     }
 
-    .header-search {
-        justify-self: self-end;
-        margin-left: 2em;
-        padding-left: 5em;
-        font-size: 14px;
-        font-weight: 700;
-        border-bottom: 0.15em solid $primary-accent;
-        color: $primary-fill;
+    .header-jumbotron {
+        background-image: url(../../../public/images/jumbotron.jpg);
+        background-size: cover;
+        height: 25em;
     }
 }

@@ -17,5 +17,10 @@ Route::get('/', function () {
 
     $comics_array = config('comics');
 
-    return view('homepage', $comics_array);
+
+    $data = [
+        'comics_array' => $comics_array
+    ]; 
+
+    return view('homepage', $data);
 })->name('home');

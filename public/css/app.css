@@ -83,7 +83,7 @@ header nav li {
   position: relative;
 }
 
-header .header-search {
+header nav .header-search {
   justify-self: self-end;
   margin-left: 2em;
   padding-left: 5em;
@@ -91,5 +91,11 @@ header .header-search {
   font-weight: 700;
   border-bottom: 0.15em solid #3780F1;
   color: #1C1C1C;
+}
+
+header .header-jumbotron {
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-size: cover;
+  height: 25em;
 }
 

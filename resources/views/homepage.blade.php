@@ -16,7 +16,13 @@
 
 @section('main_content')
 
-    <div>
+    <div class="comics-list">
+
+        <ul>
+            @foreach ($comics_array as $comic)
+                <li>{{ $comic['title'] }}</li>
+            @endforeach
+        </ul>
 
     </div>
 

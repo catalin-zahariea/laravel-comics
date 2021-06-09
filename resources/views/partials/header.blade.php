@@ -8,7 +8,7 @@
         </div>
     </div>
 
-    {{-- HEADER --}}
+    {{-- NAV --}}
     <nav class="container">
         <div class="flex">
 
@@ -39,5 +39,7 @@
             </div>
         </div>
     </nav>
+
+    <div class="header-jumbotron"></div>
 
 </header>
