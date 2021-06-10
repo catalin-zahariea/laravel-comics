@@ -34,3 +34,24 @@ body {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+// ---------------------------------------------------------------
+// | BUTTONS
+// ---------------------------------------------------------------
+
+.button {
+    padding: 0.5em 4em;
+    background-color: $primary-accent;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+// ---------------------------------------------------------------
+// | STYLE
+// ---------------------------------------------------------------
+
+.center {
+    text-align: center;
+}
