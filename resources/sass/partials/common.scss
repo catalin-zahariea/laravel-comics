@@ -32,7 +32,6 @@ ul {
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
 }
 
 // ---------------------------------------------------------------
@@ -45,6 +44,16 @@ body {
     color: #fff;
     text-transform: uppercase;
     font-size: 11px;
+    text-decoration: none;
+}
+
+.button-signup {
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5em;
+    border: 0.2em solid $primary-accent;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
     text-decoration: none;
 }
 
